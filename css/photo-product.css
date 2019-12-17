@@ -1,0 +1,22 @@
+.photo-product {
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #fff;
+  border-top-right-radius: 150px;
+  border-bottom-right-radius: 150px;
+  margin-right: 130px;
+}
+
+.photo-product > .image-size {
+  width: 500px;
+  height: 500px;
+}
+
+@media (max-width: 1250px) {
+  .photo-product {
+    margin-right:  65px;
+    float: left;
+}
+
+
+
