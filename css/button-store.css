@@ -40,3 +40,16 @@
   background: #fff;
   color: #e24647;
 }
+
+@media (max-width: 470px) {
+  .button-store,
+  .button-store.-second {
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .button-store.-second {
+    margin-bottom: 20px;
+  }
+}

@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-widthç[] initial-scale=1" />
 
     <link rel="stylesheet" href="css/reset.css" />
 
@@ -35,14 +36,17 @@
             >Serviços</a
           >
 
-          <a class="header-navigation-anchor last" href="http://google.com.br"
-            >Carriho</a
+          <a
+            id="sumCarrinho"
+            class="header-navigation-anchor last"
+            href="http://google.com.br"
+            >Carrinho(10)</a
           >
         </nav>
       </header>
 
       <figure class="photo-product">
-        <img class="image-size" src="src/fone.png" alt="Fone de ouvido" />
+        <img class="image-size" src="img/fone.png" alt="Fone de ouvido" />
       </figure>
 
       <section class="wrap-product">
@@ -50,18 +54,22 @@
           <dt class="title">Fone top, feliz e caro</dt>
 
           <dd class="coracao">
-            <img class="coracao-size" src="src/coracao.png" alt="" />
+            <img class="coracao-size" src="img/heart.png" alt="like" />
+            <img
+              class="coracao-size -active"
+              src="img/heart-active.png"
+              alt="like"
+            />
           </dd>
-
           <dd class="item -star-spacing">
-            <img class="star" src="src/star-active.png" alt="Estrela" />
-            <img class="star" src="src/star-active.png" alt="Estrela" />
-            <img class="star" src="src/star-active.png" alt="Estrela" />
-            <img class="star" src="src/star-active.png" alt="Estrela" />
-            <img class="star" src="src/star-disabled.png" alt="Estrela" />
+            <img class="star" src="img/star-active.png" alt="Estrela" />
+            <img class="star" src="img/star-active.png" alt="Estrela" />
+            <img class="star" src="img/star-active.png" alt="Estrela" />
+            <img class="star" src="img/star-active.png" alt="Estrela" />
+            <img class="star" src="img/star-disabled.png" alt="Estrela" />
           </dd>
 
-          <dd class="item">4,0 (97)</dd>
+          <dd class="item -number">4,0 (97)</dd>
           <dd class="item -info">
             <strong class="constrast"> Frete</strong> C$108
           </dd>
@@ -87,5 +95,7 @@
         </div>
       </section>
     </div>
+    <script src="js/description-list-store.js"></script>
+    <script src="js/home.js"></script>
   </body>
 </html>

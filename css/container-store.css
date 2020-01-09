@@ -19,9 +19,9 @@
   }
 }
 
-@media (max-width: 815px) {
+@media (max-width: 1185px) {
   .container-store {
-    padding-right: 30px;
+    padding-right: 0;
   }
 }
 
@@ -30,11 +30,5 @@
     max-width: 1330;
     margin-left: auto;
     margin-right: auto;
-  }
-}
-
-@media (max-width: 435px) {
-  .container-store {
-    padding-right: 16px;
   }
 }

@@ -15,8 +15,29 @@
 @media (max-width: 1250px) {
   .photo-product {
     margin-right:  65px;
-    float: left;
+    
 }
 
+@media (max-width: 1185px){
+  .photo-product{
+    float: static;
+    display: block;
+    width: 100%;
+    border-radius: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+  }
 
+}
 
+@media (max-width: 560px) {
+  .photo-product,.photo-product > .image-size{
+    height: auto;
+  }
+  .photo-product > .image-size{
+    width: 100%;
+  }
+  
+}
