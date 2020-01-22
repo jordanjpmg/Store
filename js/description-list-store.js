@@ -1,13 +1,12 @@
-const $coracao = window.document.querySelector(".coracao");
+const $coracao = document.querySelector(".coracao");
+const $stars = document.querySelectorAll(".star");
+
+$stars.forEach(function($stars) {
+  $stars.addEventListener("click", handleClick);
+});
 
 $coracao.addEventListener("click", handleClick);
 
 function handleClick() {
-  /*if ($coracao.classList.contains("-active")) {
-    $coracao.classList.remove("-active");
-  } else {
-    $coracao.classList.add("-active");
-  }*/
-
-  $coracao.classList.toggle("-active");
+  this.classList.toggle("-active"); //toggle : adiciona e remove
 }

@@ -42,17 +42,34 @@
   width: 150px;
 }
 
-.description-list-store > .item.-star-spacing + .item {
+.description-list-store > .item + .item {
   margin-left: 7px;
 }
 
-.star {
+.description-list-store .star {
   cursor: pointer;
+  display: inline-block;
+}
+
+.description-list-store .star > .-star {
+  margin-bottom: 5px;
 }
 
 .star:hover {
   transition: transform 100ms linear;
   transform: scale(1.23);
+}
+
+.description-list-store .star > .-star.-active {
+  display: none;
+}
+
+.description-list-store .star.-active > .-star {
+  display: none;
+}
+
+.description-list-store .star.-active > .-active {
+  display: block;
 }
 
 .description-list-store > .item.-info {
@@ -94,8 +111,7 @@
     text-align: center;
   }
 
-  .description-list-store > .item.-star-spacing,
-  .-number {
+  .description-list-store > .item.-number {
     display: inline-block;
     padding-top: 20px;
   }
