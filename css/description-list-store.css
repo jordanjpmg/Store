@@ -9,10 +9,9 @@
   margin-bottom: 60px;
 }
 
-.coracao {
+.description-list-store .coracao {
   position: absolute;
-  transform: translateX(-100);
-  top: 0px;
+  top: 8px;
   left: -47px;
   cursor: pointer;
 }
@@ -111,9 +110,19 @@
     text-align: center;
   }
 
+  .description-list-store .coracao {
+    left: auto;
+  }
+
   .description-list-store > .item.-number {
     display: inline-block;
     padding-top: 20px;
+  }
+}
+
+@media (max-width: 503px) {
+  .description-list-store .coracao {
+    position: static;
   }
 }
 
