@@ -91,8 +91,20 @@
 
 @media (max-width: 815px) {
   .header-store [type="search"] {
-    display: none;
+    background-color: #fff;
+    color: #000000;
+    position:absolute;
+    transform: translateX(-85%);
+    transition: cubic-bezier(.79,.14,.15,.86) 300ms;
+    top: 0;
+    left: 0;
   }
+
+  .header-store .-active[type="search"]{
+    transform: translateX(0);
+    transition: cubic-bezier(.79,.14,.15,.86) 300ms;;
+  }
+
 }
 
 @media (max-width: 530px) {
