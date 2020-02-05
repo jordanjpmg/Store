@@ -3,45 +3,40 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-widthç[] initial-scale=1" />
-
     <link rel="stylesheet" href="css/reset.css" />
-
     <link
       href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap"
       rel="stylesheet"
     />
-
     <link rel="stylesheet" href="./css/body.css" />
     <link rel="stylesheet" href="./css/container-store.css" />
     <link rel="stylesheet" href="./css/header-store.css" />
+    <link rel="stylesheet" href="./css/input-search.css" />
     <link rel="stylesheet" href="./css/photo-product.css" />
     <link rel="stylesheet" href="./css/description-list-store.css" />
     <link rel="stylesheet" href="./css/wrap-product.css" />
     <link rel="stylesheet" href="./css/button-store.css" />
     <link rel="stylesheet" href="./comprar.html" />
-
     <title>AULA002</title>
   </head>
-
   <body class="body-background">
     <div class="container-store">
       <header class="header-store">
         <h1 class="hearder-h1">Logo</h1>
         <nav class="header-navegation">
-          <input class="teste" type="search" placeholder="Buscar" />
-
-          <div class="icon">
-            <img class="-search-icon" src="img/search.png" alt="" />
-            <img class="-search-icon -active" src="img/close.png" alt="" />
-          </div>
-
+          <form class="input-search">
+            <input class="content" type="search" placeholder="Buscar" />
+            <div class="icon-search">
+              <img class="-search-icon" src="img/search.svg" />
+              <img class="-search-icon -active" src="img/close.svg" />
+            </div>
+          </form>
           <a class="header-navigation-anchor " href="http://google.com.br"
             >Produto</a
           >
           <a class="header-navigation-anchor" href="http://google.com.br"
             >Serviços</a
           >
-
           <a
             id="sumCarrinho"
             class="header-navigation-anchor last"
@@ -50,15 +45,12 @@
           >
         </nav>
       </header>
-
       <figure class="photo-product">
         <img class="image-size" src="img/fone.png" alt="Fone de ouvido" />
       </figure>
-
       <section class="wrap-product">
         <dl class="description-list-store">
           <dt class="title">Fone top, feliz e caro</dt>
-
           <dd class="coracao">
             <img class="coracao-size" src="img/heart.png" alt="like" />
             <img
@@ -68,7 +60,6 @@
               alt="like"
             />
           </dd>
-
           <ol>
             <li class="star">
               <img class="-star" src="img/star.png" alt="Estrela" />
@@ -128,7 +119,6 @@
             <a class="action">Saiba mais...</a>
           </dd>
         </dl>
-
         <div class="buttons">
           <button class="button-store -second">
             Adiciona no Carrinho
@@ -137,7 +127,7 @@
         </div>
       </section>
     </div>
-    <script src="js/header-store.js"></script>
+    <script src="js/input-search.js"></script>
     <script src="js/description-list-store.js"></script>
     <script src="js/home.js"></script>
   </body>
