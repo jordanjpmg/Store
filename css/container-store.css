@@ -27,8 +27,10 @@
 
 @media (max-height: 765px) {
   .container-store {
-    max-width: 1330;
+    max-width: 1330px;
     margin-left: auto;
     margin-right: auto;
   }
 }
+
+
