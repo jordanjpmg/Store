@@ -5,6 +5,7 @@
   border-top-right-radius: 150px;
   border-bottom-right-radius: 150px;
   margin-right: 130px;
+  padding-left: 100px;
 }
 
 .photo-product > .image-size {
@@ -15,6 +16,7 @@
 @media (max-width: 1250px) {
   .photo-product {
     margin-right:  65px;
+    w
     
 }
 
@@ -22,7 +24,7 @@
   .photo-product{
     float: static;
     display: block;
-    width: 100%;
+    
     border-radius: 0;
     text-align: center;
     margin-left: auto;
