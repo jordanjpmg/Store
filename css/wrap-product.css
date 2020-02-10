@@ -11,7 +11,7 @@
   transform: translateY(calc(100% + 98px));
 }
 
-@media (max-width: 1185px) {
+@media (max-width: 1235px) {
   .wrap-product {
     width: 100%;
   }

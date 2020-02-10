@@ -98,7 +98,7 @@
   color: inherit;
 }
 
-@media (max-width: 1185px) {
+@media (max-width: 1235px) {
   .description-list-store {
     width: 50%;
     min-width: 640px;
